@@ -1,5 +1,7 @@
 This is a MERN stack developemnt project
 
+This project helps user to create quiz. You can add any number of questions with any number of options. You can delete a question or a option and can generate the API response from this site using a button.
+
 STEPS TO RUN CODE ON YOUR PC:-
 1. Install vscode, nodejs, mongodb
 
