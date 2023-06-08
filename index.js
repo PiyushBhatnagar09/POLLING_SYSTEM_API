@@ -20,12 +20,13 @@ const passportGoogle= require('./config/passport-google-oauth2-strategy'); //to 
 const MongoStore= require('connect-mongo');
 
 //to convert scss files to css file
-const sassMiddleware= require('node-sass-middleware');
+// const sassMiddleware= require('node-sass-middleware');
 
 //to display flash messages to user(NOTY is needed to be included at each .ejs page)
 const flash= require('connect-flash');
 const customMware= require('./config/middleware'); //middleware for flash messages
 
+/*
 //telling the express app to use sass middleware before the server runs, so that we can convert scss file to css file
 app.use(sassMiddleware({
     src: './assets/scss',
@@ -33,7 +34,7 @@ app.use(sassMiddleware({
     debug: true,
     outputStyle: 'extended',
     prefix: '/css'
-}));
+}));*/
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json())
