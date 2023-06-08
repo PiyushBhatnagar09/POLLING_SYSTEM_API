@@ -2,7 +2,7 @@
 const mongoose= require('mongoose');
 
 //creating our new database
-mongoose.connect(`mongodb://127.0.0.1/polling`);
+mongoose.connect(`mongodb+srv://piyush:piyushbhat@cluster0.uv1du9w.mongodb.net/?retryWrites=true&w=majority`);
 
 //connecting to databse
 const db= mongoose.connection;
