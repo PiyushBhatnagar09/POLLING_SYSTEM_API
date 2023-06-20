@@ -13,6 +13,6 @@ router.use('/questions', require('./questions'));
 router.use('/options', require('./options'));
 
 //get request for home page
-router.get('/', home_controller.home);
+router.get('/', passport.checkAuthentication, home_controller.home);
 
 module.exports= router;
